@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+  }
+
+ body {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  width: 960px;
+  background-color: #bebebe;
+ }
+
+ h1 {
+   float: left;
+   width: 60%;
+ }
+
+ h2 { color: #cccccc}
+
+ h3 {
+   margin-top: 21px;
+   float: left;
+   width: 13%;
+   font-size: smaller;
+ }
+
+ img {
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+ }
+
+ hr { color: #cccccc;}
+
+ #nav {
+   background-color: #ffffff;
+   width: 960px;
+   color: #cccccc;
+ }
+
+ h3 { color: #cccccc;}
+
+ #maincontent {
+   width:  70%;
+   padding: 20px;
+   margin-left: 150px;
+   margin-top: 20px;
+   background-color: #ffffff;
+ }
+
+ .onelinetxt {
+   margin-bottom: 20px;
+   width: 80ch;
+ }
+
+ .txtarea {
+   margin-bottom: 20px;
+   width: 560px;
+   height: 22px;
+ }
+
+ .subbtn {
+   background-color: teal;
+   color: white;
+   padding: 4px;
+ }
+
+ .portfolio-image {
+   width: 200px;
+   height: 100px;
+ }
+
+ .img-and-desc {
+   float: left;
+   margin-left: 10px;
+   margin-top: 20px;
+ }
+
+ .image-txt {
+   text-align: center;
+ }
+
+ .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
