@@ -171,82 +171,46 @@ h3, h2 {
   border-bottom: 0;
 }
 
+/* contact page */
 
- /* h1 {
-   float: left;
-   width: 60%;
- }
+#contact-form ul {
+  margin-bottom: 20px;
+}
 
- h2 { color: #cccccc}
+#contact-form li {
+  margin-bottom: 10px;
+}
 
- h3 {
-   margin-top: 21px;
-   float: left;
-   width: 13%;
-   font-size: smaller;
- }
-
- img {
-   float: left;
-   margin-right: 10px;
-   margin-bottom: 10px;
- }
-
- hr { color: #cccccc;}
-
- #nav {
-   background-color: #ffffff;
-   width: 960px;
-   color: #cccccc;
- }
-
- h3 { color: #cccccc;}
-
- #maincontent {
-   width:  70%;
-   padding: 20px;
-   margin-left: 150px;
-   margin-top: 20px;
-   background-color: #ffffff;
- } */
-
- /* .onelinetxt {
-   margin-bottom: 20px;
-   width: 80ch;
- }
-
- .txtarea {
-   margin-bottom: 20px;
-   width: 560px;
-   height: 22px;
- }
-
- .subbtn {
-   background-color: teal;
-   color: white;
-   padding: 4px;
- }
-
- .portfolio-image {
-   width: 200px;
-   height: 100px;
- }
-
- .img-and-desc {
-   float: left;
-   margin-left: 10px;
-   margin-top: 20px;
- }
-
- .image-txt {
-   text-align: center;
- }
-
- .clearfix::after {
-  content: "";
+label,
+input[type=text],
+input[type=email],
+textarea {
   display: block;
-  clear: both;
-} */
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  margin-top: 8px;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
 
 @media screen and (max-width: 960px) {
 
